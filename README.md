@@ -1,10 +1,10 @@
 ## WKC-VAD-Model
 MATLAB implementation of a weighted k-means VAD model using Fisher Discriminant Ratio (FDR) feature selection and automatic online adjustment of class centers for improved detection in noisy environments.
 ## Contents
-[Key features] (## Key features) ,
-[Databases ] (## Databases Used),
-[Project structure ] (## Project structure) ,
-[Code ] (## Code)
+- [Key features] (## Key features) ,
+- [Databases ] (## Databases Used),
+- [Project structure ] (## Project structure) ,
+- [Code ] (## Code)
 ## Key features
 ## Features
 - Weighted k-means clustering model for classification using Cityblock distance.
@@ -17,14 +17,14 @@ MATLAB implementation of a weighted k-means VAD model using Fisher Discriminant 
 Tha main audio databases include: TIMIT and NOIZEUS speech datasets which are used in speech processing systems,including speech recongnition,speech enhancement,and voice activity detection.
 
 # TIMIT Acoustic-Phonetic Continuous Corpus
-TIMIT is a broadband English speech corpus with about 5 hours of recordings from 630 speakers across 8 American English dialects, each reading 10 phonetically rich sentences, with time-aligned transcriptions for acoustic-phonetic research and ASR development.
-The link is: (https://www.kaggle.com/datasets/mfekadu/darpa-timit-acousticphonetic-continuous-speech)
+- TIMIT is a broadband English speech corpus with about 5 hours of recordings from 630 speakers across 8 American English dialects, each reading 10 phonetically rich sentences, with time-aligned transcriptions for acoustic-phonetic research and ASR development.
+- The link is: (https://www.kaggle.com/datasets/mfekadu/darpa-timit-acousticphonetic-continuous-speech)
 # NOIZEUS 
-NOIZEUS is a free noisy speech corpus containing 30 IEEE sentences from 3 male and 3 female speakers, mixed with 8 types of real-world noise (from AURORA) at various SNRs, for benchmarking speech enhancement algorithms.
- The link is: ([https://www.openslr.org/12](https://ecs.utdallas.edu/loizou/speech/noizeus/)).
+- NOIZEUS is a free noisy speech corpus containing 30 IEEE sentences from 3 male and 3 female speakers, mixed with 8 types of real-world noise (from AURORA) at various SNRs, for benchmarking speech enhancement algorithms.
+ - The link is: ([https://www.openslr.org/12](https://ecs.utdallas.edu/loizou/speech/noizeus/)).
  ## Project structure
  # Data:
- -Fisher Discriminant ratio coefficients (le rapport discriminant de fisher maximum correctmoy.mat) 
+ - Fisher Discriminant ratio coefficients (le rapport discriminant de fisher maximum correctmoy.mat) 
 # Model
  - WKC-VAD-model before adjustment (WKC-VAD-Model) 
  - WKC-VAD-model after online adjustment (WKC-VAD-model-update.mat)
